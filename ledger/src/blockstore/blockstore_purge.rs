@@ -11,7 +11,7 @@ pub struct PurgeStats {
     write_batch: u64,
     delete_files_in_range: u64,
 }
-
+    
 #[derive(Clone, Copy)]
 /// Controls how `blockstore::purge_slots` purges the data.
 pub enum PurgeType {

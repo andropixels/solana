@@ -422,7 +422,7 @@ fn main() {
     } else {
         None
     };
-
+    
     let rpc_bigtable_config = if matches.is_present("enable_rpc_bigtable_ledger_storage") {
         Some(RpcBigtableConfig {
             enable_bigtable_ledger_upload: false,

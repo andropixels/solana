@@ -54,9 +54,10 @@ fetch_program feature-proposal 1.0.0 Feat1YXHhH6t1juaWF74WLcfv4XoNocjXA6sPWHNgAs
 echo "${genesis_args[@]}" > spl-genesis-args.sh
 
 echo
-echo "Available SPL programs:"
+echo "Available SPL program:"
 ls -l spl_*.so
 
+echo
 echo
 echo "solana-genesis command-line arguments (spl-genesis-args.sh):"
 cat spl-genesis-args.sh
