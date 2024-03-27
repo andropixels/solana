@@ -158,6 +158,7 @@ pub enum ProofInstruction {
     ///   ii. `u32` byte offset if proof is provided as an account
     ///
     VerifyPubkeyValidity,
+    VerifyPubkeyValidity,
 
     /// Verify a 64-bit range proof.
     ///
